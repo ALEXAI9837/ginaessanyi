@@ -1,0 +1,165 @@
+body{
+margin:0;
+color:#333;
+overflow-x: hidden;
+}
+.nav-container{
+width:100%;
+background:rgba(255,255,255,0);
+backdrop-filter: blur(10px);
+}
+#programok{
+max-width:700px;
+margin: 98px auto;
+padding: 12.5px;
+}
+#programok h2  {
+text-align: center;
+font-size: 32px;
+margin-bottom: 40px;
+}
+.details {
+margin: 0 auto;
+}
+.event{
+display: flex;
+align-items: center;
+margin-bottom: 30px;
+border-bottom: 2.5px solid #ce8f8f;
+padding-bottom: 20px;
+}
+.details h3{
+font-size: 16px;
+}
+.details p{
+margin: 5px 0 0;
+font-size: 24px;
+color: #ff9463;
+font-weight: bolder;
+}
+.hero {
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.overlay {
+text-align: center;
+color: #1a1a1a;
+}
+h1{
+font-family: "Cinzel Decorative", serif;
+font-weight: 900;
+font-size: 60px;
+padding: 25px;
+}
+h2{
+font-family: "Cinzel Decorative", serif;
+font-weight: 700;
+font-size: 60px;
+}
+h4 {
+font-weight: bolder;
+}
+h6 {
+float: right;
+}   
+#countdown-container {
+display: flex;
+justify-content: center;
+gap: 25px;
+font-size: larger;
+margin-top: 30px;
+}
+.calendar-section {
+text-align: center;
+padding: 10px 12px;
+background: rgba(202, 241, 241, 0.867);
+border-radius: 16px;
+max-width: 550px;
+margin: 60px auto;
+}
+.calendar-section h2 {
+font-size: 32px;
+font-weight: 400;
+margin-bottom: 10px;
+}
+.calendar-section p {
+color: #777;
+margin-bottom: 30px;
+}
+.calendar-buttons {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+.footer {
+padding: 40px 20px;
+text-align: center;
+background: #f8f5f0;
+}
+.section {
+padding: 80px 20px;
+text-align: center;
+}  
+ .section.light {
+background: #dbcfc2;
+border-radius: 12px;
+}
+ul {
+list-style: none;
+padding: 0;
+}
+ul li {
+margin: 10px 0;
+font-size: 18px;
+}
+table  {
+margin: 0 auto;
+}
+tr, td {
+padding: 10px 20px;
+color:#333333;
+}
+strong {
+font-size: 16.5px;
+}
+.btn {
+padding: 14px 26px;
+border-radius: 30px;
+text-decoration: none;
+font-size: 15px;
+transition: all 0.3s ease;
+font-weight: 500;
+}
+.btn.google {
+background: #ffffff;
+color: #333;
+border: 1px solid #ddd;
+}
+.btn.google:hover {
+border-radius: 12.5px;
+background: #4C6EF5;
+color: white;
+border-color: #1a1a1a;
+transform: translateY(-2px);
+}
+.btn.helyszin {
+background: #ffffff;
+color: #333;
+border: 1px solid #ddd;
+}
+.btn.helyszin:hover {
+border-radius: 12.5px;
+background: #d5ff6b;
+color: #1a1a1a;
+border-color: #a1a1a1;
+transform: translateY(-2px);
+}
+@media (max-width: 768px) {
+td {
+padding: 8px 10px;
+font-size: 14px;
+}
+}
